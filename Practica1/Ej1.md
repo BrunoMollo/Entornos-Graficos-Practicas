@@ -8,8 +8,15 @@ Su version incial fue creada en 1991, con el fin de crear un sistema de hipertex
 
 
 ## 2. ¿Cuáles son los principios básicos que el W3C recomienda seguir para la creación de documentos con HTML?
+Para la creación de documentos con HTML, el W3C recomienda seguir los siguientes principios básicos:
 
-    <<<TODO>>>
+* **Estructura:** Es importante utilizar una estructura clara y semántica en el documento HTML, utilizando etiquetas adecuadas para cada sección y contenido. La estructura debe reflejar la jerarquía y relación entre los diferentes elementos del contenido.
+* **Separación de presentación y contenido:** El HTML debe utilizarse para definir el contenido y la estructura del documento, mientras que el diseño y la presentación deben ser controlados a través de CSS (Cascading Style Sheets).
+* **Accesibilidad:** El documento HTML debe ser accesible para todos los usuarios, independientemente de su discapacidad o dispositivo de acceso. Esto incluye el uso de etiquetas adecuadas para describir el contenido, el uso de atributos alt en las imágenes, el uso de enlaces de texto descriptivos, entre otros.
+* **Validación:** Es importante validar el código HTML para asegurarse de que cumple con los estándares definidos por el W3C y que no contiene errores. La validación ayuda a garantizar la interoperabilidad entre diferentes navegadores y dispositivos.
+* **Optimización:** Es importante optimizar el documento HTML para mejorar su rendimiento y velocidad de carga. Esto incluye el uso de etiquetas semánticas y ligereza en la carga de recursos, entre otros aspectos.
+
+Siguiendo estos principios básicos, se puede garantizar que el documento HTML sea accesible, interoperable y fácil de mantener y actualizar en el futuro.
 
 ## 3. En las Especificaciones de HTML, ¿cuándo un elemento o atributo se considera desaprobado? ¿y obsoleto?
 
