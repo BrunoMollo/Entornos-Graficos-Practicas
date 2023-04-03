@@ -38,7 +38,7 @@ Hay 3 DTDs para HTML 4.01:
 ## 5. ¿Qué son los metadatos y cómo se especifican en HTML?
 Son ítems descriptivos cruciales sobre la propia web, siendo utilizado en diferentes contextos, pero especialmente al momento de informar sobre el concepto general de la página. Por ejemplo, un metadato importante es indicar que al pagina esta codificada con UTF-8, o que el autor es tal persona.
 
-Para indicar este dato en el HTML se utiliza la etiqueta 'meta' , la cual debe estar dentro de 'head'.
+Para indicar este dato en el HTML se utiliza la etiqueta `<meta>` , la cual debe estar dentro de `<head>`.
 ```html
 <!--Asi es como se especifica un metadato-->
 <head>
