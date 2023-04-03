@@ -44,18 +44,58 @@
 				</table>
 			</section>
 
+			<br />
+
+			<!-- Aca hay bastante css-->
 			<section>
-				<h1 style="color: red">[[Hacer formulario para enviar mail]]</h1>
+				<p>Puedes realizar consultas completando el siguiente formulario:</p>
+				<form
+					action="mailto:dia.mollo.bruno@gmail.com"
+					method="POST"
+					enctype="text/plain"
+					style="position: relative; height: 6rem"
+				>
+					<label for="mail" width="400px"> <b>e-mail:</b> </label>
+					<input
+						id="mail"
+						type="email"
+						name="email"
+						required
+						style="position: absolute; left: 6rem; width: 15rem"
+					/>
+
+					<label for="consulta" style="position: absolute; top: 2rem; left: 0"
+						><b>consulta:</b></label
+					>
+					<textarea
+						id="consulta"
+						type="text"
+						name="consulta"
+						maxlength="100"
+						required
+						style="position: absolute; top: 2rem; left: 6rem; width: 15rem"
+					></textarea>
+
+					<button
+						type="submit"
+						style="position: absolute; top: 5rem; left: 5rem"
+					>
+						<b>Enviar</b>
+					</button>
+					<button
+						type="reset"
+						style="position: absolute; top: 5rem; left: 9rem"
+					>
+						<b>Borrar</b>
+					</button>
+				</form>
 			</section>
 
 			<section>
 				<ol>
 					<li><a href="#enunciado">Enunciado del examen</a></li>
 					<li>
-						<a
-							href="https://www.youtube.com/watch?v=GQHIzuqD3-4"
-							target="_blank"
-						>
+						<a href="https://svelte.dev/tutorial/image.gif" target="_blank">
 							Resolucion
 						</a>
 					</li>
