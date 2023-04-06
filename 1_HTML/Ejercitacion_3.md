@@ -204,5 +204,287 @@ Muestra una tabla simial a la anterior pero las columnas no tienen encabezado. E
 
 <br><br>
 
+## E-
+```html
+<table width="200">
+    <caption>Título</caption>
+    <tr>
+        <td bgcolor="#dddddd">&nbsp;</td>
+        <td bgcolor="#dddddd">&nbsp;</td>
+        <td bgcolor="#dddddd">&nbsp;</td>
+    </tr>
+    <tr>
+        <td bgcolor="#dddddd">&nbsp;</td>
+        <td bgcolor="#dddddd">&nbsp;</td>
+        <td bgcolor="#dddddd">&nbsp;</td>
+    </tr>
+</table>
+```
+**[TODO]**
+
+<br>
+
+```html
+<table width="200">
+<tr>
+    <td colspan="3">
+        <div align="center">Título</div>
+    </td>
+</tr>
+    <tr>
+        <td bgcolor="#dddddd">&nbsp;</td>
+        <td bgcolor="#dddddd">&nbsp;</td>
+        <td bgcolor="#dddddd">&nbsp;</td>
+    </tr>
+    <tr>
+        <td bgcolor="#dddddd">&nbsp;</td>
+        <td bgcolor="#dddddd">&nbsp;</td>
+        <td bgcolor="#dddddd">&nbsp;</td>
+    </tr>
+</table>
+```
+**[TODO]**
+
+<br><br>
+
+## F-
+
+```html
+<table width="200">
+    <tr>
+        <td colspan="3">
+            <div align="center">Título</div>
+        </td>
+    </tr>
+    <tr>
+        <td rowspan="2" bgcolor="#dddddd">&nbsp;</td>
+        <td bgcolor="#dddddd">&nbsp;</td>
+        <td bgcolor="#dddddd">&nbsp;</td>
+    </tr>
+    <tr>
+        <td bgcolor="#dddddd">&nbsp;</td>
+        <td bgcolor="#dddddd">&nbsp;</td>
+    </tr>
+</table>
+```
+**[TODO]**
+
+<br>
+
+```html
+<table width="200">
+    <tr>
+        <td colspan="3">
+            <div align="center">Título</div>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2" bgcolor="#dddddd">&nbsp;</td>
+        <td bgcolor="#dddddd">&nbsp;</td>
+    </tr>
+    <tr>
+        <td bgcolor="#dddddd">&nbsp;</td>
+        <td bgcolor="#dddddd">&nbsp;</td>
+        <td bgcolor="#dddddd">&nbsp;</td>
+    </tr>
+</table>
+```
+**[TODO]**
+
+<br><br>
+
+
+## G-
+
+```html
+<table width="200" border="1">
+    <tr>
+        <td colspan="3">
+            <div align="center">Título</div>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2"rowspan="2">&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td width="50%">&nbsp;</td>
+    </tr>
+</table>
+```
+**[TODO]**
+
+<br>
+
+```html
+<table width="200" border="1" cellpadding="0" cellspacing="0">
+    <tr>
+        <td colspan="2">
+            <div align="center">Título</div>
+        </td>
+    </tr>
+    <tr>
+        <td rowspan="2">&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td width="50%">&nbsp;</td>
+    </tr>
+</table>
+```
+**[TODO]**
+
+<br><br>
+
+## H-
+
+```html
+<form id="form1" name="form1" action="procesar.php" method="post" target="_blank">
+<fieldset>
+    <legend>LOGIN</legend>
+    Usuario: <input type="text" id="usu1" name="usu1" value="xxx" />
+    <br/>
+    Clave: <input type="password" id="clave1" name="clave1" value="xxx" />
+</fieldset>
+<input type="submit" id="boton1" name="boton1" value="Enviar" />
+</form>
+```
+**[TODO]**
+
+<br>
+
+```html
+<form id="form2" name="form2" action="" method="get" target="_blank">
+    LOGIN <br/>
+    <label>Usuario: 
+        <input type="text" id="usu2" name="usu2"/>
+    </label>
+    <br/>
+    <label>
+        Clave: 
+        <input type="text" id="clave2" name="clave2" />
+    </label>
+    <br/>
+    <input type="submit" id="boton2" name="boton2" value="Enviar" />
+</form>
+```
+**[TODO]**
+
+<br>
+
+```html
+<form id="form3" name="form3" action="mailto:xx@xx.com” enctype=text/plain method="post" target="_blank">
+    <fieldset>
+        <legend>LOGIN</legend>
+        Usuario: <input type="text" id="usu3" name="usu3" /> <br/>
+        Clave: <input type="password" id="clave3" name="clave3" />
+    </fieldset>
+    <input type="reset" id="boton3" name="boton3" value="Enviar"/>
+</form>
+```
+**[TODO]**
+
+<br><br>
+
+## I-
+
+```html
+<label>Botón 1
+    <button type="button" name="boton1" id="boton1">
+        <img src="logo.jpg" alt="Botón con imagen " width="30" height="20"> 
+        <br/>
+        <b>CLICK AQUÍ</b>
+    </button>
+</label>
+```
+**[TODO]**
+
+<br>
+
+```html
+<label>Botón 2
+    <input type="button" name="boton2" id="boton2" value="CLICK AQUÍ" />
+</label>
+```
+**[TODO]**
+
+<br><br>
+
+## J-
+
+```html
+<p>
+    <label>
+        <input type="radio" name="opcion" id="X" value="X" />
+        X
+    </label>
+    <br/>
+    <label>
+        <input type="radio" name="opcion" id="Y" value="Y" />
+        Y
+    </label>
+</p>
+```
+**[TODO]**
+
+<br>
+
+```html
+<p>
+    <label>
+        <input type="radio" name="opcion1" id="X" value="X" />
+        X
+    </label>
+    <br/>
+    <label>
+        <input type="radio" name="opcion2" id="Y" value="Y" />
+        Y
+    </label>
+</p>
+```
+**[TODO]**
+
+<br><br>
+
+## K-
+
+```html
+<select name="lista">
+    <optgroup label="Caso 1">
+        <option>Mayo</option>
+        <option>Junio</option>
+    </optgroup>
+    <optgroup label="Caso 2">
+        <option>Mayo</option>
+        <option>Junio</option>
+    </optgroup>
+</select>
+```
+**[TODO]**
+
+<br>
+
+```html
+<select name="lista[]" multiple="multiple">
+    <optgroup label=" Caso 1">
+        <option>Mayo</option>
+        <option>Junio</option>
+    </optgroup>
+    <optgroup label=" Caso 2">
+        <option>Mayo</option>
+        <option>Junio</option>
+    </optgroup>
+</select>
+```
+**[TODO]**
+
+<br><br>
+
+
+
+
+
+
+
     
 
