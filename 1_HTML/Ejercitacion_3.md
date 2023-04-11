@@ -220,7 +220,7 @@ Muestra una tabla simial a la anterior pero las columnas no tienen encabezado. E
     </tr>
 </table>
 ```
-**[TODO]**
+Tabla con titulo, tres columnas y dos filas con fondo gris.
 
 <br>
 
@@ -243,7 +243,7 @@ Muestra una tabla simial a la anterior pero las columnas no tienen encabezado. E
     </tr>
 </table>
 ```
-**[TODO]**
+Tabla con tres columnas y tres filas, la primera fila esta simulando visualmente un titulo usando colspan y un div con align.
 
 <br><br>
 
@@ -266,12 +266,7 @@ Muestra una tabla simial a la anterior pero las columnas no tienen encabezado. E
         <td bgcolor="#dddddd">&nbsp;</td>
     </tr>
 </table>
-```
-**[TODO]**
-
-<br>
-
-```html
+<!-- ------------------------------------ -->
 <table width="200">
     <tr>
         <td colspan="3">
@@ -289,7 +284,7 @@ Muestra una tabla simial a la anterior pero las columnas no tienen encabezado. E
     </tr>
 </table>
 ```
-**[TODO]**
+Ambas son tablas con 3 columnas y 3 filas, con la primera fila simulando un titulo como en el apartado e. La diferencia es que en la primera tabla se juntan las celdas 2 y 3 de la primera columna con rowspan, y en la segunda tabla se juntan la celda 2 de las columnas 1 y 2 con colspan.
 
 <br><br>
 
@@ -311,12 +306,7 @@ Muestra una tabla simial a la anterior pero las columnas no tienen encabezado. E
         <td width="50%">&nbsp;</td>
     </tr>
 </table>
-```
-**[TODO]**
-
-<br>
-
-```html
+<!-- ------------------------------------------------------- -->
 <table width="200" border="1" cellpadding="0" cellspacing="0">
     <tr>
         <td colspan="2">
@@ -332,7 +322,7 @@ Muestra una tabla simial a la anterior pero las columnas no tienen encabezado. E
     </tr>
 </table>
 ```
-**[TODO]**
+Ambas son tablas de tres filas con la primera haciendo de titulo y las 2 celdas de la primera columnas juntas en una. La unica diferencia visual es que la primera tabla tiene bordes separados y la segunda tiene bordes unidos usando los atributos de tabla `cellpading=0` y `cellspacing=0`
 
 <br><br>
 
@@ -348,12 +338,7 @@ Muestra una tabla simial a la anterior pero las columnas no tienen encabezado. E
 </fieldset>
 <input type="submit" id="boton1" name="boton1" value="Enviar" />
 </form>
-```
-**[TODO]**
-
-<br>
-
-```html
+<!-- --------------------------------------- -->
 <form id="form2" name="form2" action="" method="get" target="_blank">
     LOGIN <br/>
     <label>Usuario: 
@@ -367,12 +352,7 @@ Muestra una tabla simial a la anterior pero las columnas no tienen encabezado. E
     <br/>
     <input type="submit" id="boton2" name="boton2" value="Enviar" />
 </form>
-```
-**[TODO]**
-
-<br>
-
-```html
+<!-- ------------------------------------------------------------- -->
 <form id="form3" name="form3" action="mailto:xx@xx.com” enctype=text/plain method="post" target="_blank">
     <fieldset>
         <legend>LOGIN</legend>
@@ -382,7 +362,9 @@ Muestra una tabla simial a la anterior pero las columnas no tienen encabezado. E
     <input type="reset" id="boton3" name="boton3" value="Enviar"/>
 </form>
 ```
-**[TODO]**
+El primero es un formulario dentro de un bloque `<fieldset>` que tiene una leyenda y dos campos usuario y clave ambos con atributo value por lo que se podran ver esos valores predefinidos. Fuera del fieldset hay un boton enviar de tipo submit. El atributo action es "procesar.php" y el method post.
+El segundo codigo es un formulario pero sin bloque `<fieldset>`, tambien tiene una leyenda y dos campos usuario y clave pero sin atributo value por lo cual estaran vacios. Tambien posee un boton enviar. El atributo action del form esta vacio y el metodo es get
+El ultimo segmento de codigo es un formulario dentro de un bloque `<fieldset>` al igual que el primero. Las diferencias son que en este form el atributo action es "mailto:xx@xx.com" con method post y enctype="text/plain". En este caso el boton enviar es de tipo reset.
 
 <br><br>
 
@@ -396,17 +378,12 @@ Muestra una tabla simial a la anterior pero las columnas no tienen encabezado. E
         <b>CLICK AQUÍ</b>
     </button>
 </label>
-```
-**[TODO]**
-
-<br>
-
-```html
+ <!-- --------------------- -->
 <label>Botón 2
     <input type="button" name="boton2" id="boton2" value="CLICK AQUÍ" />
 </label>
 ```
-**[TODO]**
+Ambos son botones con una etiqueta. La diferencia es que el primero contiene una imagen dentro del boton con un texto en negrita y el segundo es solo el texto sin imagen.
 
 <br><br>
 
@@ -424,12 +401,7 @@ Muestra una tabla simial a la anterior pero las columnas no tienen encabezado. E
         Y
     </label>
 </p>
-```
-**[TODO]**
-
-<br>
-
-```html
+<!-- ------------------------------------------------------ -->
 <p>
     <label>
         <input type="radio" name="opcion1" id="X" value="X" />
@@ -442,7 +414,7 @@ Muestra una tabla simial a la anterior pero las columnas no tienen encabezado. E
     </label>
 </p>
 ```
-**[TODO]**
+Se van a ver 4 radio buttons. Los dos primeros X e Y estan en el mismo grupo ya que tienen el mismo nombre como atributo, por esto al seleccionar uno se va a quitar la seleccion del otro. Los otros dos botones estan en diferentes grupos ya que sus atributos de nombre son diferentes y se podran seleccionar los dos a la vez.
 
 <br><br>
 
@@ -459,12 +431,7 @@ Muestra una tabla simial a la anterior pero las columnas no tienen encabezado. E
         <option>Junio</option>
     </optgroup>
 </select>
-```
-**[TODO]**
-
-<br>
-
-```html
+<!-- ------------------------------ -->
 <select name="lista[]" multiple="multiple">
     <optgroup label=" Caso 1">
         <option>Mayo</option>
@@ -476,7 +443,8 @@ Muestra una tabla simial a la anterior pero las columnas no tienen encabezado. E
     </optgroup>
 </select>
 ```
-**[TODO]**
+La primera es una lista desplegable con dos subcategorias. Solo se puede elegir una opcion.
+La segunda es una lista igual a la primera pero con la diferencia de que se pueden elegir multiples opciones ya que tiene el atributo `multiple="multiple"`
 
 <br><br>
 
