@@ -1,4 +1,4 @@
-# Práctica N°3: DESARROLLO WEB
+# Práctica N°3: DESARROLLO WEB - Bruno Mollo
 
 ## Parte 1 
 
@@ -89,8 +89,11 @@ Los elementos más importantes de un sistema de navegación son:
 **[????]**
 
 ### 3- Qué es Flash y qué problemas puede acarrear su uso?  
-**[????]**
+Flash era una tecnología de software que permite la creación de animaciones, juegos y otras aplicaciones interactivas para la web. Sin embargo, su uso conlleva varios problemas, tanto que Adobe (epresa que lo creo) recomienda desinstalarlo.
+
+El principal problema de Flash es que es vulnerable a ataques de seguridad, lo que significa que los ciberdelincuentes pueden explotar sus vulnerabilidades para comprometer la seguridad del sistema. Esto puede resultar en la infección del equipo con virus, malware y spyware, y poner en peligro la privacidad y seguridad de los datos del usuario.
+
+Otro problema importante es que Flash es propietario y no es compatible con todos los dispositivos y navegadores web. Además, consume muchos recursos del sistema y puede hacer que los sitios web que lo utilizan se carguen lentamente, lo que resulta en una experiencia de usuario deficiente.
 
 ### 4- Qué es AJAX y qué problemas puede acarrear su uso? 
-**[????]**
-
+AJAX (Asynchronous JavaScript and XML) es una técnica de programación web que permite actualizar el contenido de una página web sin tener que recargarla completamente. Con AJAX, se pueden enviar solicitudes al servidor web y recibir respuestas sin interrumpir la experiencia de usuario en el navegador. Sin embargo, su uso puede acarrear problemas de compatibilidad, seguridad, accesibilidad y rendimiento. Es importante que los desarrolladores tomen precauciones y optimicen el código para minimizar estos problemas.
