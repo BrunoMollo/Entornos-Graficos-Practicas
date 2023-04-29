@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Componentes</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="./script.js"></script>
+  </head>
+  <body class="mt-5">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col p-3 border border-white border-5 purple">Nav</div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-3 border border-white border-5 pink">
+          <button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#myModal">
+            Abrir modal
+          </button>
+          <div class="modal fade" id="myModal" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Mi Modal</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="https://svelte.dev/tutorial/image.gif" alt="rickroll" />
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                  <button
+                    type="button"
+                    class="btn btn-primary"
+                    onclick="alert('La base de datos ha explotado, no se pudieron guardar los cambios')"
+                  >
+                    Guardar cambios
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col border border-white border-5">
+          <div class="row">
+            <div class="col p-1 border border-white border-5 green">
+              <div class="alert alert-success" role="alert">Esto es una alerta!</div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-6 col-md-4 p-2 border border-white border-5 gray">
+              <div class="card">
+                <img
+                  src="https://angular.io/assets/images/logos/angular/angular.svg"
+                  class="card-img-top"
+                  alt="Angular logo"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Angular</h5>
+                  <p class="card-text">Deliver web apps with confidence</p>
+                  <a href="https://angular.io/" class="btn btn-primary">Link</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 p-2 border border-white border-5 gray">
+              <div class="card">
+                <img
+                  src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.AtBA5h-tuekjhi0AfuMs_wHaHa%26pid%3DApi%26h%3D160&f=1&ipt=15eab632ff8c9a725e8246c971d7f31e5286067de2fa54702eb2d936770f76d1&ipo=images"
+                  class="card-img-top"
+                  alt="vue logo"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Vue</h5>
+                  <p class="card-text">The Progressive JavaScript Framework</p>
+                  <a href="https://vuejs.org/" class="btn btn-primary">Link</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 p-2 border border-white border-5 gray">
+              <div class="card">
+                <img
+                  src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fraw.githubusercontent.com%2Fsveltejs%2Fsvelte%2F29052aba7d0b78316d3a52aef1d7ddd54fe6ca84%2Fsite%2Fstatic%2Fimages%2Fsvelte-android-chrome-512.png&f=1&nofb=1&ipt=c3c196f2ce3d746278672a2b7dff2d3290276b868f313ba8fbfec54c4fde4495&ipo=images"
+                  class="card-img-top"
+                  alt="svelte logo"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Svelte</h5>
+                  <p class="card-text">Cybernetically enhanced web apps</p>
+                  <a href="https://svelte.dev/" class="btn btn-primary">Link</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 p-2 border border-white border-5 gray">
+              <div class="card">
+                <img
+                  src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Flogos-download.com%2Fwp-content%2Fuploads%2F2016%2F09%2FReact_logo_logotype_emblem.png&f=1&nofb=1&ipt=137a96d096de9a6746aa6cbd46ce010b3361158eb33bbcfc37d0125af0e3a261&ipo=images"
+                  class="card-img-top"
+                  alt="react logo"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">React</h5>
+                  <p class="card-text">The library for web and native user interfaces</p>
+                  <a href="https://react.dev/" class="btn btn-primary">Link</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 p-2 border border-white border-5 gray">
+              <div class="card">
+                <img
+                  src="https://qwik.builder.io/favicons/apple-touch-icon.png"
+                  class="card-img-top img-fluid"
+                  alt="qwik logo"
+                />
+
+                <div class="card-body">
+                  <h5 class="card-title">Qwik</h5>
+                  <p class="card-text">Framework reimagined for the edge</p>
+                  <a href="https://qwik.builder.io/" class="btn btn-primary">Link</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 p-2 border border-white border-5 gray">
+              <div class="card">
+                <img
+                  src="https://seeklogo.com/images/A/astro-logo-B3B4DABB0A-seeklogo.com.png"
+                  class="card-img-top img-fluid"
+                  alt="astro logo"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Astro</h5>
+                  <p class="card-text">Build the web you want</p>
+                  <a href="https://astro.build/" class="btn btn-primary">Link</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col p-1 border border-white border-5 blue col-md-4">Footer 1</div>
+            <div class="col p-1 border border-white border-5 blue col-md-8">
+              <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="https://getlogovector.com/wp-content/uploads/2021/01/tailwind-css-logo-vector.png"
+                      class="d-block w-100"
+                      alt="tailwind css logo"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200207185625/bul.png"
+                      class="d-block w-100"
+                      alt="bulma css logo"
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="https://yon.fun/content/images/2020/04/chota-micro-css-framework.png"
+                      class="d-block w-100"
+                      alt="chota css logo"
+                    />
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExample"
+                  data-bs-slide="prev"
+                >
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExample"
+                  data-bs-slide="next"
+                >
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <style>
+    .green {
+      background-color: rgb(59, 205, 59);
+    }
+    .purple {
+      background-color: rgb(171, 38, 171);
+    }
+    .gray {
+      background-color: gray;
+    }
+    .blue {
+      background-color: rgb(51, 51, 231);
+    }
+    .pink {
+      background-color: pink;
+    }
+  </style>
+</html>
