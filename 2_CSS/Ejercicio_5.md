@@ -26,7 +26,7 @@ div p *[href]{
 #importante{
     color: green;
 }
-h1,h2,h3, h4,h5,h6{
+#importante h1, #importante h2{
     colo: red;
 }
 ```
