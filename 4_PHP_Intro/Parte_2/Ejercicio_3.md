@@ -9,6 +9,7 @@ echo "Has entrado en esta pagina a las $fun[hours] horas, con $fun[minutes] minu
 ?>
 ```
 La salida de este codigo depende de cuando es ejecutado, ya que la funcion *getdate()* devuelce un array con el tiempo actual. La salida del script es un string que dice cuando fue ejecutado.
+
 Salida (cuando yo lo ejecute):
 ```
 Has entrado en esta pagina a las 13 horas, con 24 minutos y 51 segundos, del 12/5/2023
@@ -29,5 +30,5 @@ Este codigo muestra una suma, es decir, los dos sumandos (5 y 6) separados por u
 
 Salida:
 ```
-5+6+11_
+5+6=11
 ```
