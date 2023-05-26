@@ -12,6 +12,7 @@
   <h1>Enviador de spam</h1>
 
   <form method="post" action="index.php">
+    <label>Email que lo recibe:</label>
     <input type="email" name="email">
     <button>Enviar</button>
 
