@@ -31,9 +31,13 @@
       <li>Aguante DevilBox</li>
       </ul>';
 
-    mail($to, $subject, $body);
-
-    echo '<span>Se envio algo</span>';
+    $success=mail($to, $subject, $body);
+    if(success){
+      echo '<span>Se envio algo</span>';
+    }
+    else{
+      echo 'al menos lo intentamos'
+    }
   }
   ?>
 

@@ -24,8 +24,9 @@
   if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $to = $_POST['email'];
     $subject = "Recomendacion de " . $_POST['name'];
-  $body = "<p>Tu amigo te a recomedado nuestros sitio.
-  Por favor veni a <a href='https://www.recomendable.com'>nuestro sitio</a></p>";
+    $body = "<p>Tu amigo te a recomedado nuestros sitio.
+            Por favor veni a <a href='https://www.recomendable.com'>nuestro sitio</a></p>";
+  
     $success= mail($to, $subject, $body);
     if($success){
       echo '<span>ya llenamos a tu amigo de span, muchas gracias</span>';
@@ -33,6 +34,7 @@
     else{
       echo '<span>algo salio mal :(</span>';
     }
+
   }
   ?>
 

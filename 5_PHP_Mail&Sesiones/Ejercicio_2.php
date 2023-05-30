@@ -26,9 +26,15 @@
     $to = 'webmaster@gmail.com';
     $subject = "Consulta de " . $_POST['email'];
     $body = $_POST['text'];
-    mail($to, $subject, $body);
 
-    echo '<span>Consulta enviada</span>';
+    $success= mail($to, $subject, $body);
+    if($success){
+      echo '<span>Consuta enviada</span>';
+    }
+    else{
+      echo '<span>F</span>';
+    }
+
   }
   ?>
 
