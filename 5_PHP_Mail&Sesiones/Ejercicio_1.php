@@ -32,12 +32,13 @@
       </ul>';
 
     $success=mail($to, $subject, $body);
-    if(success){
+    if($success){
       echo '<span>Se envio algo</span>';
     }
     else{
       echo 'al menos lo intentamos'
     }
+
   }
   ?>
 
