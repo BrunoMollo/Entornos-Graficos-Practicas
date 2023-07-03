@@ -3,7 +3,7 @@
 Este repositorio contiene las practicas realizadas por Bruno Mollo para la materia electiva Entronos Graficos de la UTN FRROphp .
 El respositorio incluye las entregas de la parte practica y teorica.
 
-Ademas, el informe del TP que realizamos se puede encontrar (aqui)['./TP_Regularidad/']. El mismo solo tiene lo minimo para
+Ademas, el informe del TP que realizamos se puede encontrar [aqui]('./TP_Regularidad/'). El mismo solo tiene lo minimo para
 regularizar y se debe ampliar para llegar a la aprobacion. El TP corresponde a la materia en el Plan 2008, aquellos que 
 cursen con el Plan 2023 tiene una version simplificada. 
 
